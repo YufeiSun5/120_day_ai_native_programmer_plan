@@ -9,7 +9,7 @@
 - `frontend/`：前端练习代码
 - `backend/`：后端练习代码
 - `review/`：Review、复盘、规范文档
-- `notes/memory.md`：长期踩坑与经验沉淀
+- `memory.md`：长期踩坑与经验沉淀
 
 ## 使用建议（每天）
 
@@ -17,11 +17,11 @@
 2. 在 `daily/YYYY-MM-DD.md` 按模板记录。
 3. 第一版尽量手写并跑起来。
 4. 自己看错误 5 分钟后再让 AI 协助修复。
-5. 把当日关键坑写入 `notes/memory.md`。
+5. 把当日关键坑写入 `memory.md`。
 
 ## 快速开始
 
 ```bash
-mkdir -p daily frontend backend review notes
+mkdir -p daily frontend backend review
 cp templates/daily_template.md daily/$(date +%F).md
 ```
